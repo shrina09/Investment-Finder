@@ -41,8 +41,12 @@ def homes(investAmount):
         elif (investAmount >= 90000):
             print("You can invest in an apartment in a small town in Southern Ontario with this amount: $ ", investAmount)
     
+    #If none of the above options 
+    elif (investAmount < 90000):
+        print("Sorry you cannot invest in a home according to the data we have. Please talk to a realtor if it is possible for you to invest in a home. This is the amount you have for your investment: $", investAmount)
 
-#Different types of cars suggestions according to the amount avaiable to invest
+
+#Different types of cars suggestions according to the amount available to invest
 def cars(investAmount):
     
     #For expensive sports cars
@@ -56,7 +60,11 @@ def cars(investAmount):
     #For a second hand car
     elif (investAmount >= 10000):
         print("You can invest in a second hand car with this amount: $ ", investAmount)
-            
+    
+    #If none of the above options 
+    elif (investAmount < 10000):
+        print("Sorry you cannot invest in a car according to the data we have. Please talk to a car dealer if it is possible for you to invest in a car. This is the amount you have for your investment: $", investAmount)
+
 
 #Different types of office space suggestions according to the amount avaiable to invest, and in the area they can invest in, in Southern Ontario
 def office(investAmount):
@@ -97,4 +105,8 @@ def office(investAmount):
         
         elif (investAmount >= 1000):
             print("You can invest in a desk space in a small town in southern Ontario with this amount: $ ", investAmount)
+    
+    #If none of the above options 
+    elif (investAmount < 1000):
+        print("Sorry you cannot invest in an office according to the data we have. Please talk to a realtor if it is possible for you to invest in an office. This is the amount you have for your investment: $", investAmount)
     
