@@ -59,7 +59,7 @@ elif (totalInvestAmount >= 10000):
         if (totalInvestAmount < 90000):
             print("Sorry the amount for you to invest is ", totalInvestAmount," this is not an enough amount for you to invest in a home in Southern Ontario. The minimum amount needed for a downpayment for any kind of home in this region is $90,000. Sorry for that!")
 
-        elif (totalInvestAmount >= 90000): 
+        elif (totalInvestAmount >= 1000): 
             investmentOptions.office(totalInvestAmount)
 
     elif (whatInvestment == "other"): 

@@ -62,40 +62,39 @@ def cars(investAmount):
 def office(investAmount):
     
     #For an office building
-    if (investAmount >= 1):
+    if (investAmount >= 24000):
 
         #For Toronto
-        if (investAmount >= 2):
+        if (investAmount >= 50000):
             print("You can invest in an office building in Toronto with this amount: $ ", investAmount)
         
         #For GTA
-        elif (investAmount >= 3):
+        elif (investAmount >= 35000):
             print("You can invest in an office building in GTA with this amount: $ ", investAmount)
         
         #For a small town in Southern Ontario
-        elif (investAmount >= 4):
+        elif (investAmount >= 24000):
             print("You can invest in a office building in a small town in Southern Ontario with this amount: $ ", investAmount)
 
     #Same as above but for a office unit houses 
-    elif (investAmount >= 3):
-        if (investAmount >= 2):
+    elif (investAmount >= 10000):
+        if (investAmount >= 20000):
             print("You can invest in a office unit in Toronto with this amount: $ ", investAmount)
         
-        elif (investAmount >= 3):
+        elif (investAmount >= 15000):
             print("You can invest in a office unit in GTA with this amount: $ ", investAmount)
         
-        elif (investAmount >= 4):
+        elif (investAmount >= 10000):
             print("You can invest in a office unit in a small town in Southern Ontario with this amount: $ ", investAmount)
 
     #For a desk space
-    elif (investAmount >= 3):
-        if (investAmount >= 2):
+    elif (investAmount >= 1000):
+        if (investAmount >= 8000):
             print("You can invest in a desk space in Toronto with this amount: $ ", investAmount)
         
-        elif (investAmount >= 3):
+        elif (investAmount >= 5000):
             print("You can invest in a desk space in GTA with this amount: $ ", investAmount)
         
-        elif (investAmount >= 4):
+        elif (investAmount >= 1000):
             print("You can invest in a desk space in a small town in southern Ontario with this amount: $ ", investAmount)
     
-
