@@ -11,7 +11,7 @@ Finance Chip helps people find a good investment option in Southern Ontario from
 * How to build and run the program
 ```
 If running locally:
-python3 main.py
+python main.py
 
 If running through replit, press the run button on the top. The run button is already configured to run the program. 
 ```
