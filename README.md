@@ -18,4 +18,4 @@ If running through replit, press the run button on the top. The run button is al
 
 ## Author Information
 Your name: Shrina<br />
-Email: shrina@uoguelph.ca
+Email: shrinapatel359@gmail.com
